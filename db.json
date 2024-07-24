@@ -1,0 +1,141 @@
+{
+    "farms": [
+      {
+        "id": 1,
+        "name": "Sunny Farm",
+        "location": "Nairobi, Kenya",
+        "owner": "John Doe"
+      },
+      {
+        "id": 2,
+        "name": "Green Acres",
+        "location": "Kisumu, Kenya",
+        "owner": "Jane Smith"
+      }
+    ],
+    "flocks": [
+      {
+        "id": 1,
+        "farmId": 1,
+        "name": "Layer Hens",
+        "breed": "Rhode Island Red",
+        "size": 200,
+        "age": "20 weeks"
+      },
+      {
+        "id": 2,
+        "farmId": 1,
+        "name": "Broilers",
+        "breed": "Cornish Cross",
+        "size": 300,
+        "age": "6 weeks"
+      },
+      {
+        "id": 3,
+        "farmId": 2,
+        "name": "Layer Hens",
+        "breed": "Leghorn",
+        "size": 150,
+        "age": "18 weeks"
+      }
+    ],
+    "feed": [
+      {
+        "id": 1,
+        "flockId": 1,
+        "type": "Layer Feed",
+        "quantity": "500 kg",
+        "date": "2024-07-01"
+      },
+      {
+        "id": 2,
+        "flockId": 2,
+        "type": "Broiler Feed",
+        "quantity": "300 kg",
+        "date": "2024-07-02"
+      },
+      {
+        "id": 3,
+        "flockId": 3,
+        "type": "Layer Feed",
+        "quantity": "400 kg",
+        "date": "2024-07-03"
+      }
+    ],
+    "healthRecords": [
+      {
+        "id": 1,
+        "flockId": 1,
+        "issue": "Marek's Disease",
+        "treatment": "Vaccination",
+        "date": "2024-06-15"
+      },
+      {
+        "id": 2,
+        "flockId": 2,
+        "issue": "Coccidiosis",
+        "treatment": "Amprolium",
+        "date": "2024-06-18"
+      },
+      {
+        "id": 3,
+        "flockId": 3,
+        "issue": "Newcastle Disease",
+        "treatment": "Vaccination",
+        "date": "2024-06-20"
+      }
+    ],
+    "eggProduction": [
+      {
+        "id": 1,
+        "flockId": 1,
+        "date": "2024-07-01",
+        "quantity": 180
+      },
+      {
+        "id": 2,
+        "flockId": 3,
+        "date": "2024-07-02",
+        "quantity": 140
+      },
+      {
+        "id": 3,
+        "flockId": 1,
+        "date": "2024-07-03",
+        "quantity": 190
+      },
+      {
+        "id": 4,
+        "flockId": 3,
+        "date": "2024-07-03",
+        "quantity": 135
+      }
+    ],
+    "sales": [
+      {
+        "id": 1,
+        "farmId": 1,
+        "product": "Eggs",
+        "quantity": "180 dozen",
+        "price": 4500,
+        "date": "2024-07-04"
+      },
+      {
+        "id": 2,
+        "farmId": 2,
+        "product": "Broilers",
+        "quantity": 250,
+        "price": 12500,
+        "date": "2024-07-05"
+      },
+      {
+        "id": 3,
+        "farmId": 1,
+        "product": "Eggs",
+        "quantity": "190 dozen",
+        "price": 4750,
+        "date": "2024-07-06"
+      }
+    ]
+  }
+  

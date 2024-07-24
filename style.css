@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    color: aqua;
+}
+#farmsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#flocksContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;  
+}
+#feedContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;    
+}
+#healthRecordsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+}
+
+#eggProductionContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;   
+}
+#salesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+}
